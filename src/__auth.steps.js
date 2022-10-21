@@ -26,6 +26,13 @@ and <AuthContextProvider value={authInfo}>
     <UserContext>
         <App/>
     </UserContext
+8.export AuthContext
+
+9.GO to other component and 
+    const {user} = useContext(AuthContext)
+
+10.get form data
+11.getAuth in the UserContext
 
 
 
